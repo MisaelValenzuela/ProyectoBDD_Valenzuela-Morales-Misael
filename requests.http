@@ -1,8 +1,0 @@
-###
-POST http://localhost:8080/api/campeones HTTP/1.1
-Content-Type: application/json
-
-{"año":1974,"pais":"Germany","ganador":"Germany FR","segundo":"Netherlands","tercero":"Poland","cuarto":"Brazil","golesAnotados":97,"equiposCalificados":16,"partidosJugados":38,"continenteCampeon":"Europa"}
-
-###
-GET http://localhost:8080/api/campeones HTTP/1.1
